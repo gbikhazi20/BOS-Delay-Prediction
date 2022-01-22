@@ -11,23 +11,23 @@ Our prediction algorithms made use of regression models, as opposed to classific
 See the [notebook](/logan-arrival-trends.ipynb) for further information.
 
 ## Data
-Links to all data in CSV form:
+All data is in CSV format
 
-Weather Data
+Weather Data:
 
 [Boston Weather Data](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/BOS-weatherdata.csv)
 
-Flight with Destination BOS Data
+Flights with Destination BOS Data:
 
-[American Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-AA.csv)
+[American Airlines Flights](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-AA.csv)
 
-[JetBlue Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-B6.csv)
+[JetBlue Flights](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-B6.csv)
 
-[Delta Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-DL.csv)
+[Delta Airlines Flights](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-DL.csv)
 
-[United Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-UA.csv)
+[United Airlines Flights](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-UA.csv)
 
-[Southwestern Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-WN.csv)
+[Southwestern Airlines Flights](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-WN.csv)
 
 ### Logan Airport Domestic Arrival Data, 2019
 Domestic arrival data for Logan International Airport was obtained from the [United States Department of Transportation’s Bureau of Transportation Statistics](https://transtats.bts.gov/ONTIME/Arrivals.aspx). We chose to use data from 2019 so as to avoid impacts on air travel relating to the COVID-19 pandemic. The raw dataset includes information about the flight (carrier, flight number, date, etc) and the timetable (scheduled arrival time, elapsed time, taxi time, etc). Our model makes use of the following variables from this dataset:
