@@ -11,14 +11,22 @@ Our prediction algorithms made use of regression models, as opposed to classific
 See the [notebook](/logan-arrival-trends.ipynb) for further information.
 
 ## Data
+Links to all data in CSV form:
 
-All data is available in CSV form in the [data directory](https://github.com/timaeusx/ds3000-logan-arrival-trends/tree/main/data) of this project's GitHub repository.
-Links to data in CSV form:
+Weather Data
+
 [Boston Weather Data](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/BOS-weatherdata.csv)
+
+Flight with Destination BOS Data
+
 [American Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-AA.csv)
+
 [JetBlue Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-B6.csv)
+
 [Delta Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-DL.csv)
+
 [United Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-UA.csv)
+
 [Southwestern Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-WN.csv)
 
 ### Logan Airport Domestic Arrival Data, 2019
