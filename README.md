@@ -8,11 +8,18 @@ In this project, we explore factors that contribute to domestic commercial fligh
 
 Our prediction algorithms made use of regression models, as opposed to classification models, because we wanted to predict flight delay as a numerical value. To this end, we tested Linear, Ridge, and Lasso regression models, and made use of feature selection and hyperparameter tuning in the form of a grid search algorithm to optimize each model's prediction algorithm. Ultimately, our analysis suggests that the factors we identified do not play a particularly significant role in predicting domestic flight delays at Logan Airport. However, we note that this may be due to limitations in our methodology and data.
 
-See the [notebook](/DS3000_FP4_Group31.ipynb) for further information.
+See the [notebook](/logan-arrival-trends.ipynb) for further information.
 
 ## Data
 
 All data is available in CSV form in the [data directory](https://github.com/timaeusx/ds3000-logan-arrival-trends/tree/main/data) of this project's GitHub repository.
+Links to data in CSV form:
+[Boston Weather Data](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/BOS-weatherdata.csv)
+[American Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-AA.csv)
+[JetBlue Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-B6.csv)
+[Delta Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-DL.csv)
+[United Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-UA.csv)
+[Southwestern Airlines Flights with Destination BOS](https://raw.githubusercontent.com/timaeusx/ds3000-logan-arrival-trends/main/data/DSA-WN.csv)
 
 ### Logan Airport Domestic Arrival Data, 2019
 Domestic arrival data for Logan International Airport was obtained from the [United States Department of Transportation’s Bureau of Transportation Statistics](https://transtats.bts.gov/ONTIME/Arrivals.aspx). We chose to use data from 2019 so as to avoid impacts on air travel relating to the COVID-19 pandemic. The raw dataset includes information about the flight (carrier, flight number, date, etc) and the timetable (scheduled arrival time, elapsed time, taxi time, etc). Our model makes use of the following variables from this dataset:
